@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Esercizio5.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+<asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="header" class="container border-bottom">
+                <header class="d-flex justify-content-center py-3 bg-danger" >
+                    <ul class="nav nav-pills">
+                        <li class="nav-item me-3 "><a href="Default.aspx" class="nav-link border border-0 text-white" aria-current="page">Home</a></li>
+                        <li class="nav-item "><a href="Bogie.aspx" class="nav-link border border-0 text-white">Carrello</a></li>
+                    </ul>
+                </header>
+            </div>
+<main class="p-3">
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+</main>
+            
+        </div>
+    </form>
+</body>
+</html>
+
